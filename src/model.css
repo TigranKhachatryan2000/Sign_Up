@@ -1,0 +1,36 @@
+.wrap{
+    /* display: flex; */
+    /* justify-content: center; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; 
+    bottom: 0;
+    z-index: 2;
+    background-color: rgb(0, 0, 0, .7)
+
+}
+
+.window {
+    display: flex;
+    justify-content: center;
+    position: fixed; 
+    top: 50%;
+    left: 50%; 
+    width: 400px;
+    height: 150px;
+    z-index: 3;
+    background-color: rgb(228, 211, 136);
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    margin-top: 70px;
+}
+
+.close-button{
+    position: absolute;
+    right: 20px;
+    top: 15px; 
+    cursor: pointer;
+}
