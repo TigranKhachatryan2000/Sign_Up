@@ -10,12 +10,9 @@ function Button() {
     const [modelOpen, setModelOpen] = useState(false);
     const myRef = useRef();
     const colorBC = useContext(ThemeContext);
-    
- 
 
-    ////    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     function darkLightBtn(){
-        // this.setState({isValid: !this.state.isValid});
+        this.setState({isValid: !this.state.isValid});
         setIsValid(!isValid);
         console.log(isValid);
         if(!isValid){
